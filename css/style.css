@@ -22,25 +22,67 @@ ul,ol{
 	display: flex;
 	padding: 14px 0 14px 0;
 }
+ /* ---------- logo part ------- */
 .logo{
-     width: 10%;
+     width: 20%;
+     display: flex;
  }
-.menu{
-     width:80%;
-     text-align: right;
-     line-height:50px;
- }
-.profile{
-     width: 10%;
- }
-.main-menu .logo img{
+ .main-menu .logo img{
     width: 40px;
     height: 51px;
 }
+.main-menu .logo .logo-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#FFFFFF;
+    padding: 10px 0 0 10px;
+}
+/* ----- menu part start ------- */
+.main-menu .menu{
+    width:70%;
+    text-align: right;
+    line-height:50px;
+}
 .main-menu .menu li{
     display: inline-block;
+    padding-right: 25px;
 }
-.main-menu .profile img{
+.main-menu .menu a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    font-size: 16px;
+    position: relative;
+}
+.main-menu .menu a::after{
+    position: absolute;
+    content:'';
+    left:0;
+    top:31px;
+    height: 3px;
+    width:0;
+    background: #FFFFFF;
+    border-radius:1px;
+    transition:  width 0.4s linear ;
+    -webkit-transition:  width 0.4s linear ;
+    -moz-transition:  width 0.4s linear ;
+    -ms-transition:  width 0.4s linear ;
+    -o-transition:  width 0.4s linear ;
+    -webkit-border-radius:1px;
+    -moz-border-radius:1px;
+    -ms-border-radius:1px;
+    -o-border-radius:1px;
+}
+.main-menu .menu a:hover::after{
+    width:100%;   
+}
+/*--------- profile part ----------- */
+.profile{
+     width: 10%;
+ }
+ .main-menu .profile img{
     width: 51px;
     height: 51px;
 }
+
