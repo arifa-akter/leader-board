@@ -124,13 +124,13 @@ top player part and top blog part start
     -o-border-radius: 58px;
     box-shadow: 6px 1px 20px #D1D1D1;
 }
-.all-players .players .player img{
+.player img{
     width: 56px;
     height: 56px;
     padding-left: 10px;
 
 }
-.all-players .players .player-name h3{
+.player-name h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding: 17px 0px 0px 18px;
@@ -142,4 +142,36 @@ hr{
    width:95%;
    color: #D1D1D1;
    margin-bottom: 30px;
+}
+
+/* top blog */
+.blog-main{
+    width: 410px;
+    border: 1px solid #D1D1D1;
+    box-shadow: 6px 1px 20px #D1D1D1;
+}
+.blog-main{
+    display:flex;
+    padding: 15px 15px 15px 0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.blog-img img {
+	width: 239px;
+	height: 157px;
+}
+.blog-text span {
+	display: inline-block;
+	padding-top: 9px;
+}
+.blog-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#9F9F9F;
+    padding-left: 17px;
+    padding-top: 20px ;
 }
