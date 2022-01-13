@@ -104,6 +104,10 @@ top player part and top blog part start
     font-size: 24px;
     color:#562EFF;
 }
+.all-players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .players{
     display: flex;
     width: 250px;
