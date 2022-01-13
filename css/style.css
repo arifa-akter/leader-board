@@ -90,3 +90,39 @@ ul,ol{
 top player part and top blog part start
 ------------------------------- */
 
+#top-player{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #9F9F9F;
+}
+.container-bg{
+    background: #FFFFFF;
+}
+.headline{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color:#562EFF;
+}
+.players{
+    display: flex;
+    width: 250px;
+    border: 1px solid #9F9F9F;
+    padding: 20px 0px 20px 0px;
+    border-radius: 58px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    -ms-border-radius: 58px;
+    -o-border-radius: 58px;
+}
+.all-players .players .player img{
+    width: 56px;
+    height: 56px;
+    padding-left: 10px;
+
+}
+.all-players .players .player-name h3{
+    padding: 17px 0px 0px 18px;
+    font-size: 18px;
+    color:#000000;
+}
