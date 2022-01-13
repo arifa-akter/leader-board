@@ -111,18 +111,18 @@ top player part and top blog part start
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 30px;
-    /* padding-left: 30px; */
 }
 .players{
     display: flex;
     width: 250px;
-    border: 1px solid #9F9F9F;
+    border: 1px solid #D1D1D1;
     padding: 20px 0px 20px 0px;
     border-radius: 58px;
     -webkit-border-radius: 58px;
     -moz-border-radius: 58px;
     -ms-border-radius: 58px;
     -o-border-radius: 58px;
+    box-shadow: 6px 1px 20px #D1D1D1;
 }
 .all-players .players .player img{
     width: 56px;
@@ -136,4 +136,10 @@ top player part and top blog part start
     padding: 17px 0px 0px 18px;
     font-size: 18px;
     color:#000000;
+}
+hr{
+   margin-top: 30px;
+   width:95%;
+   color: #D1D1D1;
+   margin-bottom: 30px;
 }
