@@ -107,6 +107,8 @@ top player part and top blog part start
 .all-players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    padding-left: 30px;
 }
 .players{
     display: flex;
@@ -126,6 +128,8 @@ top player part and top blog part start
 
 }
 .all-players .players .player-name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     padding: 17px 0px 0px 18px;
     font-size: 18px;
     color:#000000;
