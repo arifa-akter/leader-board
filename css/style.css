@@ -236,7 +236,20 @@ courses part start
     -ms-border-radius:16px ;
     -o-border-radius:16px ;
     box-shadow: 6px 1px 20px rgba(221, 221, 221, 0.76);
+    transition: transform 5s;
+    -webkit-transition: transform 5s;
+    -moz-transition: transform 5s;
+    -ms-transition: transform 5s;
+    -o-transition: transform 5s;
 }
+.course-item:hover{
+    transform: scale(1.1) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
 .course-img{
     padding-top: 22px ;
 }
