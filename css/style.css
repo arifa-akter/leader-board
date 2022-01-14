@@ -173,7 +173,7 @@ hr{
 .blog-main{
     width: 400px;
     border: 1px solid #D1D1D1;
-    box-shadow: 6px 1px 20px #D1D1D1;
+    box-shadow: 6px 1px 20px rgba(221, 221, 221, 0.76);
 }
 .blog-main{
     display:flex;
