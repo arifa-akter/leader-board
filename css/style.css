@@ -269,3 +269,31 @@ courses part start
 .course-reating{
 display: flex;
 }
+/* ======================
+footer part
+===================== */
+#footer{
+    padding-top: 30px;
+    background: #9F9F9F;
+    
+}
+.footer-text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #562EFF;
+    text-align:center;
+}
+.footer-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color:#ffffff;
+    text-transform: capitalize;
+}
+.footer-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#ffffff;
+    text-transform: capitalize;
+}
