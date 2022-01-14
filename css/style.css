@@ -234,7 +234,7 @@ courses part start
 }
 .course-reating{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .icon{
     padding-top: 10px;
@@ -243,6 +243,9 @@ courses part start
 .fa-color {
     font-size: 14px;
     color:#FFC014;
+}
+.clock-color{
+    color:#FF4A60;
 }
 .reating h3{
     color: #A2A2A2;
@@ -257,6 +260,7 @@ courses part start
 }
 .clock p{
     display: inline-block;
+    color:#FF4A60;
 }
 .course-reating{
 display: flex;
