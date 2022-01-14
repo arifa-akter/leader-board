@@ -194,11 +194,15 @@ hr{
 /* ---------------- 
 courses part start 
 -------------------*/
+.all-courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .course-item{
     border: 1px solid #D1D1D1;
-    width: 270px;
-    padding-left: 22px;
+    width: 248px;
+    padding-left: 14px;
     border-radius:16px ;
     -webkit-border-radius:16px ;
     -moz-border-radius:16px ;
@@ -210,7 +214,7 @@ courses part start
     padding-top: 22px ;
 }
 .course-img img {
-	width: 248px;
+	width: 233px;
 	height: 122px;
 }
 
@@ -238,10 +242,10 @@ courses part start
 }
 .icon{
     padding-top: 10px;
-    padding-right: 16px
+    padding-right: 12px
 }
 .fa-color {
-    font-size: 14px;
+    font-size: 12px;
     color:#FFC014;
 }
 .clock-color{
