@@ -183,6 +183,20 @@ hr{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    transition: width 0.5s linear , transform 0.5s;
+    -webkit-transition: width 0.5s linear , transform 0.5s;
+    -moz-transition: width 0.5s linear , transform 0.5s;
+    -ms-transition: width 0.5s linear , transform 0.5s;
+    -o-transition: width 0.5s linear , transform 0.5s;
+}
+.blog-main:hover{
+    box-shadow: 6px 1px 20px #D1D1D1;
+    width: 415px;
+    transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    -o-transform:scale(0.9);
 }
 .blog-img img {
 	width: 211px;
@@ -190,7 +204,7 @@ hr{
 }
 .blog-text h3{
     padding-top:5px;
-    padding-left: 5px;
+    padding-left: 12px;
 }
 .blog-text span {
 	display: inline-block;
