@@ -194,3 +194,69 @@ hr{
 /* ---------------- 
 courses part start 
 -------------------*/
+.course-item{
+    border: 1px solid #D1D1D1;
+    width: 270px;
+    padding-left: 22px;
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    box-shadow: 6px 1px 20px #D1D1D1;
+}
+.course-img{
+    padding-top: 22px ;
+}
+.course-img img {
+	width: 248px;
+	height: 122px;
+}
+
+.course-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color:#1E1E1E;
+    padding-top: 20px;
+}
+.course-text span{
+    padding-top: 10px;
+    padding-bottom: 9px;
+    display: inline-block;
+}
+.course-text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#ED6B4F;
+}
+.course-reating{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon{
+    padding-top: 10px;
+    padding-right: 16px
+}
+.fa-color {
+    font-size: 14px;
+    color:#FFC014;
+}
+.reating h3{
+    color: #A2A2A2;
+    padding-top: 10px;
+    padding-right: 19px;
+}
+.clock {
+	background: rgba(255, 74, 95, 0.527);
+	width: 77px;
+	padding: 10px 10px;
+	border-radius: 25px;
+}
+.clock p{
+    display: inline-block;
+}
+.course-reating{
+display: flex;
+}
