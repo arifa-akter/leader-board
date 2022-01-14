@@ -194,15 +194,16 @@ hr{
 /* ---------------- 
 courses part start 
 -------------------*/
+
 .course-item{
     border: 1px solid #D1D1D1;
     width: 270px;
     padding-left: 22px;
-    border-radius:30px ;
-    -webkit-border-radius:30px ;
-    -moz-border-radius:30px ;
-    -ms-border-radius:30px ;
-    -o-border-radius:30px ;
+    border-radius:16px ;
+    -webkit-border-radius:16px ;
+    -moz-border-radius:16px ;
+    -ms-border-radius:16px ;
+    -o-border-radius:16px ;
     box-shadow: 6px 1px 20px #D1D1D1;
 }
 .course-img{
