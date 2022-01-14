@@ -12,6 +12,19 @@ ul,ol{
     margin: 0 auto;
     width: 870px;
 }
+#common-background{
+    padding-top: 30px;
+    background: #9F9F9F;
+}
+.container-bg{
+    background: #FFFFFF;
+    padding: 30px 0px 30px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 /*--------------------
  header part start 
  ---------------------*/
@@ -22,6 +35,7 @@ ul,ol{
 	display: flex;
 	padding: 14px 0 14px 0;
 }
+
  /* ---------- logo part ------- */
 .logo{
      width: 20%;
@@ -90,15 +104,6 @@ ul,ol{
 top player part and top blog part start
 ------------------------------- */
 
-#top-player{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: #9F9F9F;
-}
-.container-bg{
-    background: #FFFFFF;
-    padding: 30px 0px 30px 30px;
-}
 .headline{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -144,7 +149,9 @@ hr{
    margin-bottom: 30px;
 }
 
-/* top blog */
+/*-----------------------
+ top blog
+ ------------------------*/
 .all-blogs{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
@@ -184,3 +191,6 @@ hr{
     padding-left: 17px;
     padding-top: 20px ;
 }
+/* ---------------- 
+courses part start 
+-------------------*/
