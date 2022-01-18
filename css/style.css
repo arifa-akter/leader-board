@@ -339,6 +339,7 @@ footer part
 }
 /*================== mobile device ====================== */
 @media screen and ( max-width:575px){
+    /*============ common css part start =================*/
     .container {
         margin: 0 auto;
         width: 100%;
@@ -359,6 +360,20 @@ footer part
         display: flex;
         justify-content: center;
     }
+    /* =============== navber part start ================= */
+    .menu{
+        display: none;
+    }
+    .logo{
+        flex-grow:9;
+    }
+    .profile {
+      flex-grow: 1;
+    }
+    i{
+       visibility: visible;
+    }
+    /* =============== player part start ================= */
     .all-players {
         display: grid;
         grid-template-columns: 1fr 1fr;  
@@ -376,7 +391,7 @@ footer part
         width: 100%;    
     }
    
- /* top blog part start */
+ /*=============== top blog part start ===================*/
  .all-blogs {
 	display: grid;
 	grid-template-columns: repeat(1 ,1fr);
@@ -404,11 +419,21 @@ footer part
 	-o-transform: scale(0.9);
 }
 
-/* all courses */
+/*===================== all courses ============*/
 .all-courses {
 	display: grid;
 	grid-template-columns:  1fr;
     row-gap: 30px;
+}
+.clock-color {
+	font-size: 14px;
+}
+.reating h3 {
+	padding-right: 11px;
+}
+.clock {
+	width: 72px;
+
 }
 .course-item {
 	transition: transform 0.4s all linear;
