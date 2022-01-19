@@ -429,11 +429,14 @@ footer part
 	font-size: 14px;
 }
 .reating h3 {
-	padding-right: 11px;
+	padding-right: 15px;
 }
 .clock {
 	width: 72px;
 
+}
+.clock p {
+	display: inline-block;
 }
 .course-item {
 	transition: transform 0.4s all linear;
